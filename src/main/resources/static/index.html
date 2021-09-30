@@ -19,8 +19,27 @@
                 <button>Add customer</button>
             </div>
         </form>
+        <form action="/update/1" method="POST">
+            <p>Update the first customer...</p>
+            <div>
+                <label for="updateFirst">First name:</label>
+                <input name="updateFirst" id="updateFirst" value="">
+            </div>
+            <div>
+                <label for="updateLast">Last name:</label>
+                <input name="updateLast" id="updateLast" value="">
+            </div>
+            <div>
+                <button>Update first customer</button>
+            </div>
+        </form>
         <form action="/list" method="GET">
             <button>List customers</button>
         </form>
+        <form action="/fib/15">
+            <input type="submit" value="Fibonacci Sequence" />
+        </form>
+
     </body>
+
 </html>
